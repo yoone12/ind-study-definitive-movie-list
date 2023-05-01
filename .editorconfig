@@ -1,0 +1,14 @@
+# Designate top-most EditorConfig file
+root = true
+
+[*.md]
+indent_style = space
+indent_size = 4
+
+[*.{html,css}]
+indent_style = tab
+indent_size = 2
+
+[*.js]
+indent_style = tab
+indent_size = 2
