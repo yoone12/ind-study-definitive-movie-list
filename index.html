@@ -24,15 +24,201 @@ img {
 	height: auto;
 }
 
-.wrapper {
+body {
+	color: hsl(0, 0%, 8%);
+}
 
+h1 {
+	margin: 0 0 0.5rem;
+}
+
+h2 {
+	background-color: hsl(0, 0%, 92%);
+	margin: 0;
+	padding: 0.25em;
+}
+
+a:link,
+a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	color: hsl(0, 0%, 0%);
+	text-decoration: underline;
+}
+
+.wrapper {
+	max-width: 110ch;
+	margin: 0 auto;
+	padding: 2rem 1rem;
+	min-height: 100vh;
+}
+
+header p {
+	font-size: 1.5rem;
+	font-weight: lighter;
+	margin: 0;
+}
+
+main {
+	margin-top: 4rem;
+}
+
+.category {
+	margin-bottom: 4rem;
+}
+
+.category-lists {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1rem;
+}
+
+@media (min-width: 45em) {
+	.category-lists {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+.category-best-worst {
+}
+
+.category-best-worst ul {
+	padding-inline-start: 1em;
 }
 </style>
 
 </head>
 <body>
 <div class="wrapper">
-	
+	<header>
+		<h1>The Independent Study Definitive Movie List</h1>
+		<p>Best and worst movies by genre</p>
+	</header>
+
+	<main>
+		<article class="category">
+			<h2>Action</h2>
+
+			<div class="category-lists">
+				<section class="category-best-worst best">
+					<h3>Best</h3>
+					<ul>
+						<li></li>
+					</ul>
+				</section>
+
+				<section class="category-best-worst worst">
+					<h3>Worst</h3>
+					<ul>
+						<li></li>
+					</ul>
+				</section>
+			</div>
+		</article>
+
+		<article class="category">
+			<h2>Animated</h2>
+
+			<div class="category-lists">
+				<section class="category-best-worst best">
+					<h3>Best</h3>
+					<ul>
+						<li></li>
+					</ul>
+				</section>
+
+				<section class="category-best-worst worst">
+					<h3>Worst</h3>
+					<ul>
+						<li></li>
+					</ul>
+				</section>
+			</div>
+		</article>
+
+		<article class="category">
+			<h2>Comedy</h2>
+
+			<div class="category-lists">
+				<section class="category-best-worst best">
+					<h3>Best</h3>
+					<ul>
+						<li></li>
+					</ul>
+				</section>
+
+				<section class="category-best-worst worst">
+					<h3>Worst</h3>
+					<ul>
+						<li></li>
+					</ul>
+				</section>
+			</div>
+		</article>
+
+		<article class="category">
+			<h2>Drama</h2>
+
+			<div class="category-lists">
+				<section class="category-best-worst best">
+					<h3>Best</h3>
+					<ul>
+						<li></li>
+					</ul>
+				</section>
+
+				<section class="category-best-worst worst">
+					<h3>Worst</h3>
+					<ul>
+						<li></li>
+					</ul>
+				</section>
+			</div>
+		</article>
+
+		<article class="category">
+			<h2>Horror</h2>
+
+			<div class="category-lists">
+				<section class="category-best-worst best">
+					<h3>Best</h3>
+					<ul>
+						<li></li>
+					</ul>
+				</section>
+
+				<section class="category-best-worst worst">
+					<h3>Worst</h3>
+					<ul>
+						<li></li>
+					</ul>
+				</section>
+			</div>
+		</article>
+
+		<article class="category">
+			<h2>Rom Com</h2>
+
+			<div class="category-lists">
+				<section class="category-best-worst best">
+					<h3>Best</h3>
+					<ul>
+						<li></li>
+					</ul>
+				</section>
+
+				<section class="category-best-worst worst">
+					<h3>Worst</h3>
+					<ul>
+						<li></li>
+					</ul>
+				</section>
+			</div>
+		</article>
+	</main>
 </div>
 </body>
 </html>
