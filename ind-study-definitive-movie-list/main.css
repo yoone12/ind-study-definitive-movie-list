@@ -76,7 +76,8 @@ main {
 	}
 }
 
-.category-best-worst {
+.category-best-worst ul li:nth-child(2n-1){
+	background-color: rgb(250, 250, 250);
 }
 
 .category-best-worst ul {
